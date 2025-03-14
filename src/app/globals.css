@@ -66,3 +66,24 @@
 }
 
  
+@media (min-width:768px) {
+  .first {
+    background: 
+      url('../../public/source/images/bg-section-top-desktop-1.svg') top center no-repeat,
+      url('../../public/source/images/bg-section-bottom-desktop-1.svg') bottom center no-repeat,
+      linear-gradient(to bottom, transparent 13%, hsl(207, 100%, 98%) 10%, hsl(207, 100%, 98%) 88%, transparent 55%);
+  }
+
+  .second {
+    background: 
+      url('../../public/source/images/bg-section-top-desktop-2.svg') top center no-repeat,
+      url('../../public/source/images/bg-section-bottom-desktop-2.svg') bottom center no-repeat,
+      linear-gradient(to bottom, transparent 13%, hsl(207, 100%, 98%) 15%, hsl(207, 100%, 98%) 82%, transparent 90%);
+  }
+
+  .foot {
+    background: 
+      url('../../public/source/images/bg-footer-top-desktop.svg') top center no-repeat,
+      linear-gradient(to top, hsl(192, 100%, 9%) 82%, transparent 20%);
+  }
+}
