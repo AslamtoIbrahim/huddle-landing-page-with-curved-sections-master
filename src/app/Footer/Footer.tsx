@@ -4,7 +4,7 @@ import Connection from './Connection'
 
 const Footer = () => {
   return (
-    <div className='bg-very-dark-cyan px-4 py-12'>
+    <div className='foot px-4 py-12'>
       <News />
       <Connection />
     </div>

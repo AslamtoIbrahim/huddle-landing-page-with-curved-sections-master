@@ -6,7 +6,7 @@ import Social from "./Social";
 const Connection = () => {
   return (
     <div
-      className="bg-very-dark-cyan text-white pt-24 pb-12 px-4 flex flex-col gap-8 lg:px-12 xl:px-16
+      className="text-white pt-24 pb-12 px-4 flex flex-col gap-8 lg:px-12 xl:px-16
     lg:flex-row lg:gap-16 lg:items-start xl:py-32 "
     >
       <section className="flex flex-col gap-4">

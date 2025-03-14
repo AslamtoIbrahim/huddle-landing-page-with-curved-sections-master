@@ -50,6 +50,12 @@
   background-repeat: no-repeat;
   background-position: top center, bottom center, center center;
 }
+.foot {
+  background: 
+    url('../../public/source/images/bg-footer-top-mobile.svg') top center no-repeat,
+    linear-gradient(to top, hsl(192, 100%, 9%) 94%, transparent 20%);
+    
+}
 
 .icon {
   @apply w-7 h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10  hover:text-pink hover:border-pink cursor-pointer
