@@ -51,6 +51,12 @@
   background-position: top center, bottom center, center center;
 }
 
+.icon {
+  @apply w-7 h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10  hover:text-pink hover:border-pink cursor-pointer
+}
 
+.line{
+  @apply hover:underline whitespace-nowrap px-0 cursor-pointer xl:text-xl
+}
 
  
