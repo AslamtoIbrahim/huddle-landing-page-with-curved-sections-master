@@ -8,7 +8,7 @@ type prop = {
   }
 const StartButton = ({onclick,className, text = 'Get Started For Free'}:prop) => {
   return (
-    <button onClick={onclick} className={twMerge(`bg-pink text-white text-sm px-12 py-3 rounded-full font-opens xl:py-4 xl:text-lg
+    <button onClick={onclick} className={twMerge(`bg-pink text-white text-sm px-12 py-2 xl:py-3 rounded-full font-opens  xl:text-lg
         shadow-xl cursor-pointer hover:opacity-80 md:w-fit md:px-12 lg:px-16`, className)}>
           {text}
       </button>

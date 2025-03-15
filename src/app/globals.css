@@ -40,6 +40,7 @@
   background-size: auto, auto, 100% 100%;
   background-repeat: no-repeat;
   background-position: top center, bottom center, center center;
+
 }
 .second {
   background: 
@@ -72,6 +73,7 @@
       url('../../public/source/images/bg-section-top-desktop-1.svg') top center no-repeat,
       url('../../public/source/images/bg-section-bottom-desktop-1.svg') bottom center no-repeat,
       linear-gradient(to bottom, transparent 13%, hsl(207, 100%, 98%) 10%, hsl(207, 100%, 98%) 88%, transparent 55%);
+
   }
 
   .second {
@@ -85,5 +87,32 @@
     background: 
       url('../../public/source/images/bg-footer-top-desktop.svg') top center no-repeat,
       linear-gradient(to top, hsl(192, 100%, 9%) 82%, transparent 20%);
+  }
+}
+
+@media (min-width:1024px) {
+  .first {
+    background: 
+      url('../../public/source/images/bg-section-top-desktop-1.svg') top center no-repeat,
+      url('../../public/source/images/bg-section-bottom-desktop-1.svg') bottom center no-repeat,
+      linear-gradient(to bottom, transparent 13%, hsl(207, 100%, 98%) 25%, hsl(207, 100%, 98%) 85%, transparent 55%);
+      background-size: contain;
+
+  }
+
+  .second {
+    background: 
+      url('../../public/source/images/bg-section-top-desktop-2.svg') top center no-repeat,
+      url('../../public/source/images/bg-section-bottom-desktop-2.svg') bottom center no-repeat,
+      linear-gradient(to bottom, transparent 13%, hsl(207, 100%, 98%) 30%, hsl(207, 100%, 98%) 72%, transparent 90%);
+      background-size: contain;
+
+  }
+
+  .foot {
+    background: 
+      url('../../public/source/images/bg-footer-top-desktop.svg') top center no-repeat,
+      linear-gradient(to top, hsl(192, 100%, 9%) 78%, transparent 20%);
+      background-size: contain;
   }
 }
