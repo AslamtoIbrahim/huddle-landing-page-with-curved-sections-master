@@ -112,7 +112,7 @@
   .foot {
     background: 
       url('../../public/source/images/bg-footer-top-desktop.svg') top center no-repeat,
-      linear-gradient(to top, hsl(192, 100%, 9%) 78%, transparent 20%);
+      linear-gradient(to top, hsl(192, 100%, 9%) 77%, transparent 20%);
       background-size: contain;
   }
 }
